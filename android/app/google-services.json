@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385049454690",
+    "project_id": "finnotix",
+    "storage_bucket": "finnotix.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385049454690:android:4b98e935b366d01152493b",
+        "android_client_info": {
+          "package_name": "com.example.finnotix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDttA1-lc6n_DXT0wQ4OSSQ6Rzf-E2GRFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
