@@ -1,16 +1,34 @@
 # finnotix
 
-A new Flutter project.
+Replace your `assets/.env`
 
-## Getting Started
+```
+# FIREBASE
+# API_KEY
+WEB_API = ["YOUR_API_KEY"]
+ANDROID_API = ["YOUR_API_KEY"]
+IOS_API = ["YOUR_API_KEY"]
 
-This project is a starting point for a Flutter application.
+#APP_ID
+WEB_APP_ID = ["YOUR_APP_ID"]
+ANDROID_APP_ID = ["YOUR_APP_ID"]
+IOS_APP_ID = ["YOUR_APP_ID"]
 
-A few resources to get you started if this is your first Flutter project:
+#MESSAGE_SENDER_ID
+MESSAGE_SENDER_ID = ["YOUR_MESSAGE_SENDER_ID"]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#MEASUREMENT_ID
+MEASUREMENT_ID = ["YOUR_MEASUREMENT_ID"]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#PROJECT_ID
+PROJECT_ID = ["YOUR_PROJECT_ID"]
+
+#STORAGE_BUCKET
+STORAGE_BUCKET = ["YOUR_STORAGE_BUCKET"]
+
+#ios
+IOS_BUNDLE_ID = ["YOUR_IOS_BUNDLE_ID"]
+
+#web
+AUTH_DOMAIN = ["YOUR_AUTH_DOMAIN"]
+```
