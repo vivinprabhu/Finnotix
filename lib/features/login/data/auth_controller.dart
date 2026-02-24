@@ -17,7 +17,7 @@ class _AuthControllerState extends State<AuthController> {
       stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          print("${snapshot.data}");
+          // print("${snapshot.data}");
           return const HomeScreen();
         } else {
           return const LoginScreen();
